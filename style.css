@@ -55,7 +55,7 @@ justify-content: space-between;
 left: 0;
 bottom: -100%;
 border-radius: 30px;
-transition: all ease 0.3s;
+transition: all ease 0.5s;
 
 }
 #nav-part1  ,h4:hover::after{
@@ -67,7 +67,7 @@ text-decoration: none;
 position: relative;
 z-index: 9;
 color: black;
-transition: all ease 0.3s;
+transition: all ease 0.5s;
 }
 #nav-part1 ,h4:hover a{
 color: white;
@@ -336,7 +336,7 @@ border: 2px solid black;
  position: absolute;
  left: 0px;
  bottom: -100%;
- transition: 0.4s;  
+ transition: 0.6s;  
 }
 #page4{
     height: 100vh;
@@ -409,16 +409,14 @@ min-height: 60vh;
     right: 0px;
     top: 76vh
 }
-#page1 video {
-}
+
 #center{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 25px;
 }
-#center p{
-}
+
 #center h1{
     line-height: 15vw;
     font-family: sans-serif;
